@@ -1,0 +1,38 @@
+# Flutter / Dart: local files and tool outputs.
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+build/
+coverage/
+# This repository distributes a package, not an application.
+pubspec.lock
+
+# Android / Gradle: caches and machine-specific configuration.
+.gradle/
+.kotlin/
+.cxx/
+.externalNativeBuild/
+local.properties
+captures/
+**/GeneratedPluginRegistrant.java
+*.apk
+*.aab
+*.apks
+*.hprof
+
+# Local editor and operating system files.
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+
+# Local signing files.
+key.properties
+*.jks
+*.keystore
